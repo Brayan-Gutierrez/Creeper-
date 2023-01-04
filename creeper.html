@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creeper</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+
+    <script>
+
+        var pantalla = document.querySelector("canvas");
+        var pincel = pantalla.getContext("2d");
+
+        // Cabeza rectangulo 1
+        pincel.fillStyle = "green"
+        pincel.fillRect(0,0,350,300);
+
+        //ojo rectangulo 2
+        pincel.fillStyle = "black"
+        pincel.fillRect(50,55,90,90);
+
+        //ojo rectangulo 3
+        pincel.fillStyle = "black"
+        pincel.fillRect(210,55,90,90);
+
+        //nariz rectangulo 4
+        pincel.fillStyle = "black"
+        pincel.fillRect(140,145,70,100);
+        
+        //boca rectangulo 5
+        pincel.fillStyle = "black"
+        pincel.fillRect(105,190,40,110);
+
+        //boca rectangulo 6
+        pincel.fillStyle = "black"
+        pincel.fillRect(210,190,40,110);
+
+    </script>
+</body>
+</html>
